@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    max-width: 1366px;
 }
 
  body {
@@ -39,13 +40,6 @@ nav {
     font-weight: 400;
     font-size: 18px;
 }
-
-/*.conteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}*/
 
 .conteudo-01 {
     display:flex;
@@ -170,8 +164,9 @@ nav {
 
 }
 .conteudo-03{
-    background-color: gray;
+    background-color: #8aa9d5;
     padding-bottom: 20px;
+    color: #193254;
 }
 .conteudo-col-b{
     display: flex;
@@ -298,4 +293,100 @@ nav {
     font-weight: 400;
     font-size: 15px;
     cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: #FFF1CD;
+    padding-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.voltar-topo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+    float: right;
+    clear: both;
+}
+.clear{
+    clear: both;
+}
+.voltar-topo img {
+    width: 10px;
+    margin-left: 8px;
+}
+
+.info-rodape {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.logo-ad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-ad img {
+    width: 150px;
+}
+
+.logo-ad button {
+    border-radius: 15%;
+    width: 60px;
+    height: 26px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+    border-color: #193254;
+}
+
+.rodape-text {  
+    display:inline-flex;  
+}
+
+.rodape-text ul {
+    list-style-type: none;
+}
+
+.rodape-text-ex {
+    margin: 0 100px;   
+}
+
+.img-icon img {
+    width: 25px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+
+.direitos-aut {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #cacaca;
+    width: 100%;
+    background-color: #193254;
+    margin-top: 10px;
+    padding: 5px;
+    
 }
